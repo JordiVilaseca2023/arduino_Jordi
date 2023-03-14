@@ -41,7 +41,7 @@ void setup()
 
 //********** Loop *****************************************************************
 void loop()
-{
+  { 
   digitalWrite(segA, LOW);  
   digitalWrite(segB, HIGH);     
   digitalWrite(segC, HIGH);     
@@ -131,7 +131,6 @@ void loop()
   digitalWrite(segG, HIGH);
       
   delay(pausa);               // es queda en aquest estat pausa ms
-  
-}
+  }
 
 //********** Funcions *************************************************************
